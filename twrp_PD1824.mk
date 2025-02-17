@@ -36,7 +36,7 @@ BOARD_VENDOR := $(or $(word 2,$(subst /, ,$(firstword $(MAKEFILE_LIST)))),$(valu
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := PD1824
-PRODUCT_NAME := omni_PD1824
+PRODUCT_NAME := twrp_PD1824
 PRODUCT_BRAND := vivo
 PRODUCT_MODEL := V1824A
 PRODUCT_MANUFACTURER := vivo
